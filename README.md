@@ -12,6 +12,7 @@ A automatização foca nas seguintes funcionalidades do sistema **OrangeHRM**:
 
 - **Login de usuário administrador após a criação**
 - **Gestão do usuário administrador**: Teste das funcionalidades de cadastro, edição, exclusão e consulta do usuário admin
+- **A automação ainda está em andamento, as outras funcionalidades também serão testadas 
 
 
 ## Tecnologias Utilizadas
