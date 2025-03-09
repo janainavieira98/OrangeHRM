@@ -1,10 +1,10 @@
-describe('Teste de Cadastro de Empregador', () => {
+describe('Teste de Cadastro de Empregado', () => {
     beforeEach(() => {
         cy.login(Cypress.env('email'), Cypress.env('senha'))
         cy.visit('')
     })
 
-    it('Deve cadastrar um  novo usuário do tipo empregador com sucesso sem criar credenciais de login', () => {
+    it('Deve cadastrar um  novo usuário do tipo empregado com sucesso sem criar credenciais de login', () => {
         cy.get(':nth-child(2) > .oxd-main-menu-item').click()
         cy.get('.orangehrm-header-container > .oxd-button').click()
        
